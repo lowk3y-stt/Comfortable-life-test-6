@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Comfortable life: одно приложение для умного дома, заметок, календаря, спорта и здоровья. Для вас и для всей семьи.">
+<title>Comfortable life</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600&family=Unbounded:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<script>document.documentElement.className+=" js";</script>
+</head>
+<body>
+<input class="sw" type="radio" name="lang" id="r-ru" aria-label="Русский" checked>
+<input class="sw" type="radio" name="lang" id="r-en" aria-label="English">
+<div class="page">
+<header>
+  <input class="sw" type="checkbox" id="menu-toggle" aria-label="Меню" aria-controls="mobile-nav">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Comfortable life">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 18C4 9 11 4 28 4c0 14-6 24-16 24-4 0-8-3-8-10z" fill="var(--sage)"/><path d="M6 26C11 18 17 13 24 9" fill="none" stroke="var(--leaf)" stroke-width="2" stroke-linecap="round"/></svg>
+      <span translate="no" class="notranslate" lang="en">Comfortable life</span>
+    </a>
+    <nav class="dnav" aria-label="Sections">
+      <a href="#about"><ru-t lang="ru">О проекте</ru-t><en-t lang="en">About</en-t></a>
+      <a href="#features"><ru-t lang="ru">Возможности</ru-t><en-t lang="en">Features</en-t></a>
+      <a href="#family"><ru-t lang="ru">Семья</ru-t><en-t lang="en">Family</en-t></a>
+      <a href="#why"><ru-t lang="ru">Отличия</ru-t><en-t lang="en">Difference</en-t></a>
+      <a href="#ambitions"><ru-t lang="ru">Амбиции</ru-t><en-t lang="en">Ambitions</en-t></a>
+      <a href="#founder"><ru-t lang="ru">Основатель</ru-t><en-t lang="en">Founder</en-t></a>
+    </nav>
+    <button class="ai-pill" type="button" data-ai-open><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></svg><span><ru-t lang="ru">Ассистент</ru-t><en-t lang="en">Assistant</en-t></span></button>
+    <div class="lang" role="group" aria-label="Language">
+      <label for="r-ru">RU</label>
+      <label for="r-en">EN</label>
+    </div>
+    <label class="menu-btn" for="menu-toggle" aria-hidden="true"><span></span><span></span><span></span></label>
+  </div>
+  <nav class="mnav" id="mobile-nav" aria-label="Sections">
+    <div class="wrap mnav-in">
+      <a href="#about"><ru-t lang="ru">О проекте</ru-t><en-t lang="en">About</en-t></a>
+      <a href="#features"><ru-t lang="ru">Возможности</ru-t><en-t lang="en">Features</en-t></a>
+      <a href="#family"><ru-t lang="ru">Семья</ru-t><en-t lang="en">Family</en-t></a>
+      <a href="#why"><ru-t lang="ru">Отличия</ru-t><en-t lang="en">Difference</en-t></a>
+      <a href="#ambitions"><ru-t lang="ru">Амбиции</ru-t><en-t lang="en">Ambitions</en-t></a>
+      <a href="#founder"><ru-t lang="ru">Основатель</ru-t><en-t lang="en">Founder</en-t></a>
+      <button class="ai-item" type="button" data-ai-open><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></svg><span><ru-t lang="ru">Ассистент</ru-t><en-t lang="en">Assistant</en-t></span></button>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+    <svg class="fern f1" id="fern-h1" viewBox="0 0 300 520" aria-hidden="true"></svg>
+    <svg class="fern f2" id="fern-h2" viewBox="0 0 300 520" aria-hidden="true"></svg>
+    <div class="wrap grid">
+      <div class="hero-text">
+        <span class="eyebrow"><ru-t lang="ru">Проект в разработке · старт в России</ru-t><en-t lang="en">In development · launching in Russia first</en-t></span>
+        <h1 id="title" translate="no" class="notranslate" lang="en"><span class="l1">Comfortable</span><span class="l2">life</span></h1>
+        <p class="lead"><ru-t lang="ru">Одно спокойное приложение для дома, дел, спорта и здоровья. Для вас и для всей семьи.</ru-t><en-t lang="en">One calm app for your home, tasks, sport and health. For you and your whole family.</en-t></p>
+      </div>
+      <div class="phone-wrap">
+        <div class="phone" aria-hidden="true">
+          <div class="top"><b><ru-t lang="ru">Сегодня</ru-t><en-t lang="en">Today</en-t></b><small><ru-t lang="ru">Семья · 2 общих события</ru-t><en-t lang="en">Family · 2 shared events</en-t></small></div>
+          <div class="pcard a"><small><ru-t lang="ru">Умный дом</ru-t><en-t lang="en">Smart home</en-t></small><span><ru-t lang="ru">Гостиная · сценарий «Вечер»</ru-t><en-t lang="en">Living room · Evening scene</en-t></span></div>
+          <div class="pcard b"><small><ru-t lang="ru">Заметка</ru-t><en-t lang="en">Note</en-t></small><span><ru-t lang="ru">Купить продукты на неделю</ru-t><en-t lang="en">Buy groceries for the week</en-t></span></div>
+          <div class="prow">
+            <div class="pcard c"><small>18:30</small><span><ru-t lang="ru">Тренировка</ru-t><en-t lang="en">Workout</en-t></span></div>
+            <div class="pcard c"><small><ru-t lang="ru">Шаги</ru-t><en-t lang="en">Steps</en-t></small><span>6 420</span></div>
+          </div>
+          <div class="pfoot"><ru-t lang="ru">Помощник: включить «Вечер» в 19:00?</ru-t><en-t lang="en">Assistant: start Evening at 7 pm?</en-t></div>
+        </div>
+        <span class="cap"><ru-t lang="ru">Концепт интерфейса</ru-t><en-t lang="en">Interface concept</en-t></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about pad" id="about">
+    <div class="wrap grid">
+      <div class="copy">
+        <span class="eyebrow"><ru-t lang="ru">О проекте</ru-t><en-t lang="en">About</en-t></span>
+        <h2><ru-t lang="ru">Что такое <span translate="no" class="notranslate" lang="en">Comfortable life</span></ru-t><en-t lang="en">What <span translate="no" class="notranslate" lang="en">Comfortable life</span> is</en-t></h2>
+        <p class="lead"><ru-t lang="ru"><span translate="no" class="notranslate" lang="en">Comfortable life</span> — приложение, которое собирает в одном месте то, что сегодня разбросано по разным программам в телефоне: умный дом, заметки, расписание, спорт и здоровье.</ru-t><en-t lang="en"><span translate="no" class="notranslate" lang="en">Comfortable life</span> is an app that brings together what is scattered across different apps on your phone today: smart home, notes, schedule, sport and health.</en-t></p>
+        <p class="lead"><ru-t lang="ru">Мы делаем его для любого человека. Оно должно быть простым в первый день и нужным каждый день.</ru-t><en-t lang="en">We build it for anyone. It should feel simple on day one and be needed every day.</en-t></p>
+      </div>
+      <div class="goal">
+        <span class="eyebrow"><ru-t lang="ru">Цель</ru-t><en-t lang="en">Our goal</en-t></span>
+        <p><ru-t lang="ru">Облегчить жизнь людям в их телефоне.</ru-t><en-t lang="en">To make life easier for people, right in their phone.</en-t></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad" id="features">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow"><ru-t lang="ru">Возможности</ru-t><en-t lang="en">Features</en-t></span>
+        <h2><ru-t lang="ru">Пять областей жизни в одном приложении</ru-t><en-t lang="en">Five parts of life in one app</en-t></h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h14V10M10 20v-6h4v6"/></svg>
+          <h3><ru-t lang="ru">Умный дом</ru-t><en-t lang="en">Smart home</en-t></h3><p><ru-t lang="ru">Управление устройствами из разных экосистем в одном месте. Сценарии запускает встроенный ИИ-помощник.</ru-t><en-t lang="en">Control devices from different ecosystems in one place. Scenes are run by a built-in AI assistant.</en-t></p>
+        </article>
+        <article class="card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM15 3v4h4M9 12h6M9 16h6"/></svg>
+          <h3><ru-t lang="ru">Заметки</ru-t><en-t lang="en">Notes</en-t></h3><p><ru-t lang="ru">Быстрые записи, личные и общие. Всё находится, когда понадобится.</ru-t><en-t lang="en">Quick notes, personal and shared. Everything is there when you need it.</en-t></p>
+        </article>
+        <article class="card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v14H4zM4 10h16M8 3v4M16 3v4"/></svg>
+          <h3><ru-t lang="ru">Календарь</ru-t><en-t lang="en">Calendar</en-t></h3><p><ru-t lang="ru">Расписание дня и недели. События семьи рядом с вашими.</ru-t><en-t lang="en">Your day and week at a glance. Family events next to yours.</en-t></p>
+        </article>
+        <article class="card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13h4l3-7 4 12 3-5h4"/></svg>
+          <h3><ru-t lang="ru">Спорт</ru-t><en-t lang="en">Sport</en-t></h3><p><ru-t lang="ru">Тренировки, активность и прогресс без отдельных программ.</ru-t><en-t lang="en">Workouts, activity and progress without extra apps.</en-t></p>
+        </article>
+        <article class="card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg>
+          <h3><ru-t lang="ru">Здоровье</ru-t><en-t lang="en">Health</en-t></h3><p><ru-t lang="ru">Самочувствие и привычки под рукой, чтобы заботиться о себе регулярно.</ru-t><en-t lang="en">Well-being and habits at hand, so caring for yourself becomes regular.</en-t></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="family pad" id="family">
+    <div class="wrap grid">
+      <div class="copy">
+        <span class="eyebrow"><ru-t lang="ru">Семейный режим</ru-t><en-t lang="en">Family mode</en-t></span>
+        <h2><ru-t lang="ru">Один дом, много людей, у каждого своё пространство</ru-t><en-t lang="en">One home, many people, a space for each</en-t></h2>
+        <p class="lead"><ru-t lang="ru">Семья ведёт общие заметки, общий календарь и общий умный дом. При этом у каждого остаётся личное пространство, которое не смешивается с общим.</ru-t><en-t lang="en">A family keeps shared notes, a shared calendar and a shared smart home. Everyone still has a personal space that stays separate from the shared one.</en-t></p>
+      </div>
+      <div class="venn">
+        <svg viewBox="0 0 420 370" role="img" aria-label="Shared space in the center, personal spaces around it">
+          <circle class="pers" cx="135" cy="125" r="92"/>
+          <circle class="pers" cx="285" cy="125" r="92"/>
+          <circle class="pers" cx="210" cy="245" r="92"/>
+          <circle class="shared" cx="210" cy="165" r="64"/>
+          <text class="t1" x="92" y="108"><tspan class="ru-t">Вы</tspan><tspan class="en-t">You</tspan></text><text class="t2" x="92" y="126"><tspan class="ru-t">личное</tspan><tspan class="en-t">personal</tspan></text>
+          <text class="t1" x="328" y="108"><tspan class="ru-t">Партнёр</tspan><tspan class="en-t">Partner</tspan></text><text class="t2" x="328" y="126"><tspan class="ru-t">личное</tspan><tspan class="en-t">personal</tspan></text>
+          <text class="t1" x="210" y="300"><tspan class="ru-t">Родные</tspan><tspan class="en-t">Family</tspan></text><text class="t2" x="210" y="318"><tspan class="ru-t">личное</tspan><tspan class="en-t">personal</tspan></text>
+          <text class="t1 st" x="210" y="146"><tspan class="ru-t">Общее</tspan><tspan class="en-t">Shared</tspan></text>
+          <text class="t2 st" x="210" y="167"><tspan class="ru-t">заметки</tspan><tspan class="en-t">notes</tspan></text>
+          <text class="t2 st" x="210" y="183"><tspan class="ru-t">календарь</tspan><tspan class="en-t">calendar</tspan></text>
+          <text class="t2 st" x="210" y="199"><tspan class="ru-t">дом</tspan><tspan class="en-t">home</tspan></text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad" id="why">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow"><ru-t lang="ru">Отличия</ru-t><en-t lang="en">Difference</en-t></span>
+        <h2><ru-t lang="ru">Чем мы отличаемся от того, что есть</ru-t><en-t lang="en">How we differ from what exists</en-t></h2>
+      </div>
+      <div class="cmp">
+        <div class="panel old">
+          <h3><ru-t lang="ru">Как обычно</ru-t><en-t lang="en">How it usually is</en-t></h3>
+          <ul>
+            <li><ru-t lang="ru">Дом управляется в одном приложении</ru-t><en-t lang="en">Your home is controlled in one app</en-t></li><li><ru-t lang="ru">Заметки лежат в другом</ru-t><en-t lang="en">Notes live in another</en-t></li><li><ru-t lang="ru">Календарь живёт в третьем</ru-t><en-t lang="en">The calendar lives in a third</en-t></li><li><ru-t lang="ru">Спорт и здоровье разнесены по отдельным сервисам</ru-t><en-t lang="en">Sport and health are spread across separate services</en-t></li><li><ru-t lang="ru">Семье приходится делиться всем вручную</ru-t><en-t lang="en">A family has to share everything by hand</en-t></li>
+          </ul>
+        </div>
+        <div class="panel new">
+          <h3><ru-t lang="ru">В <span translate="no" class="notranslate" lang="en">Comfortable life</span></ru-t><en-t lang="en">In <span translate="no" class="notranslate" lang="en">Comfortable life</span></en-t></h3>
+          <ul>
+            <li><ru-t lang="ru">Дом, заметки, календарь, спорт и здоровье в одном приложении</ru-t><en-t lang="en">Home, notes, calendar, sport and health in one app</en-t></li><li><ru-t lang="ru">Общее и личное разделены внутри семьи</ru-t><en-t lang="en">Shared and personal spaces kept apart inside a family</en-t></li><li><ru-t lang="ru">Устройства из разных экосистем и сценарии с ИИ-помощником</ru-t><en-t lang="en">Devices from different ecosystems and scenes with an AI assistant</en-t></li><li><ru-t lang="ru">Защита данных как главный принцип разработки</ru-t><en-t lang="en">Data protection as the main development principle</en-t></li><li><ru-t lang="ru">Язык интерфейса подстраивается под язык устройства</ru-t><en-t lang="en">The interface language follows the device language</en-t></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wave" style="--from:transparent;--to:var(--wild)" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,50 C200,6 480,84 720,38 C960,0 1240,80 1440,30 L1440,90 L0,90 Z"/></svg></div>
+
+  <section class="wild pad" id="ambitions">
+    <svg class="fern w1" id="fern-w1" viewBox="0 0 300 520" aria-hidden="true"></svg>
+    <svg class="fern w2" id="fern-w2" viewBox="0 0 300 520" aria-hidden="true"></svg>
+    <div class="wrap">
+      <div class="inner">
+        <div class="head" style="margin:0">
+          <span class="eyebrow"><ru-t lang="ru">Амбиции</ru-t><en-t lang="en">Ambitions</en-t></span>
+          <h2><ru-t lang="ru">Стать частью каждого дня</ru-t><en-t lang="en">To become part of every day</en-t></h2>
+        </div>
+        <ul class="alist">
+          <li><ru-t lang="ru">Стать неотъемлемой частью жизни человека.</ru-t><en-t lang="en">To become an essential part of a person's life.</en-t></li><li><ru-t lang="ru">Начать с России, затем прийти в США и другие страны.</ru-t><en-t lang="en">To start in Russia, then reach the USA and other countries.</en-t></li><li><ru-t lang="ru">Говорить с каждым на его языке: интерфейс следует за языком устройства.</ru-t><en-t lang="en">To speak everyone's language: the interface follows the device language.</en-t></li><li><ru-t lang="ru">Сделать защиту данных основой продукта.</ru-t><en-t lang="en">To make data protection the foundation of the product.</en-t></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="wave flip" style="--from:var(--wild);--to:transparent" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,34 C250,88 510,6 750,46 C990,86 1220,8 1440,44 L1440,90 L0,90 Z"/></svg></div>
+
+  <section class="founder pad" id="founder">
+    <div class="wrap">
+      <div class="row">
+        <div class="mono" aria-hidden="true">MC</div>
+        <div class="txt">
+          <span class="role"><ru-t lang="ru">Основатель</ru-t><en-t lang="en">Founder</en-t></span>
+          <h3 translate="no" class="notranslate" lang="en">Matthew Chepushtanov</h3>
+          <p><ru-t lang="ru">Автор идеи и создатель проекта <span translate="no" class="notranslate" lang="en">Comfortable life</span>.</ru-t><en-t lang="en">Author of the idea and creator of <span translate="no" class="notranslate" lang="en">Comfortable life</span>.</en-t></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="poll" id="feedback">
+    <div class="wrap">
+      <div class="poll-box">
+        <span class="eyebrow"><ru-t lang="ru">Ваше мнение</ru-t><en-t lang="en">Your opinion</en-t></span>
+        <h2 id="poll-q"><ru-t lang="ru">Будете ли вы пользоваться таким приложением, и сможет ли оно облегчить вашу жизнь?</ru-t><en-t lang="en">Would you use an app like this, and could it make your life easier?</en-t></h2>
+        <div class="poll-yn" role="group" aria-labelledby="poll-q">
+          <button type="button" id="poll-yes" aria-pressed="false"><ru-t lang="ru">Да</ru-t><en-t lang="en">Yes</en-t></button>
+          <button type="button" id="poll-no" aria-pressed="false"><ru-t lang="ru">Нет</ru-t><en-t lang="en">No</en-t></button>
+        </div>
+        <form class="poll-wish" id="poll-form" autocomplete="off">
+          <label for="poll-text"><ru-t lang="ru">Что бы вы хотели видеть в приложении ещё? Ваши пожелания (необязательно)</ru-t><en-t lang="en">What else would you like to see in the app? Your wishes (optional)</en-t></label>
+          <textarea id="poll-text" maxlength="1000" rows="4"></textarea>
+          <input class="hp" type="text" id="poll-hp" name="site" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="send" id="poll-send" type="submit"><ru-t lang="ru">Отправить</ru-t><en-t lang="en">Send</en-t></button>
+        </form>
+        <div class="poll-status" id="poll-status" role="status" aria-live="polite"></div>
+        <small><ru-t lang="ru">Ответы анонимные: мы не собираем ваше имя и контакты.</ru-t><en-t lang="en">Answers are anonymous: we do not collect your name or contacts.</en-t></small>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span translate="no" class="notranslate" lang="en">© 2026 Comfortable life</span>
+    <span><ru-t lang="ru">Проект в разработке</ru-t><en-t lang="en">In development</en-t></span>
+  </div>
+</footer>
+
+<div class="ai" id="ai" role="dialog" aria-labelledby="ai-title" hidden>
+  <div class="ai-head">
+    <div><b id="ai-title"><ru-t lang="ru">Ассистент проекта</ru-t><en-t lang="en">Project assistant</en-t></b><small><ru-t lang="ru">Отвечает на вопросы о <span translate="no" class="notranslate" lang="en">Comfortable life</span></ru-t><en-t lang="en">Answers questions about <span translate="no" class="notranslate" lang="en">Comfortable life</span></en-t></small></div>
+    <button class="ai-x" id="ai-x" type="button" aria-label="Закрыть ассистента">&times;</button>
+  </div>
+  <div class="ai-log" id="ai-log" aria-live="polite"></div>
+  <div class="ai-hints" id="ai-hints">
+    <button class="hint-toggle" id="ai-hint-toggle" type="button" aria-expanded="true" aria-controls="ai-chips"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg><span><ru-t lang="ru">Подсказки</ru-t><en-t lang="en">Suggestions</en-t></span></button>
+    <div class="ai-chips" id="ai-chips"></div>
+  </div>
+  <form class="ai-form" id="ai-form" autocomplete="off">
+    <input id="ai-input" type="text" placeholder="Спросите о проекте" aria-label="Question">
+    <button id="ai-send" type="submit" aria-label="Отправить">&#10148;</button>
+  </form>
+  <div class="ai-note"><ru-t lang="ru">Ответы строятся по материалам этого сайта.</ru-t><en-t lang="en">Answers are based on this site's content.</en-t></div>
+</div>
+</div>
+<script src="config.js"></script>
+<script src="knowledge.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
